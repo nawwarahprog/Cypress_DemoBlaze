@@ -18,8 +18,6 @@ describe ('Add to cart', function () {
         cy.get('.col-sm-12 > .btn').click()
 
         cy.get('#cartur').click()
-        
-
 
 
     })
