@@ -1,0 +1,23 @@
+{
+  "name": "cypress_demoblaze",
+  "version": "1.0.0",
+  "description": "Cypress Automation testing Web Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nawwarahprog/Cypress_DemoBlaze.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nawwarahprog/Cypress_DemoBlaze/issues"
+  },
+  "homepage": "https://github.com/nawwarahprog/Cypress_DemoBlaze#readme",
+  "dependencies": {
+    "cypress": "^10.7.0"
+  }
+}
