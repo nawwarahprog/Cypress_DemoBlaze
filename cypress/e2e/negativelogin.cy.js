@@ -8,7 +8,7 @@ describe ('Login Demo Blaze', function () {
 
     it('Negative Login Demo Blaze', function () {
         cy.get('#login2').click()
-        cy.get('#loginusername').type('nawa3').click()
+        cy.get('#loginusername').type('n').click()
         cy.get('#loginpassword').type('nawa1').click()
 
         cy.get('#logInModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary').click()
