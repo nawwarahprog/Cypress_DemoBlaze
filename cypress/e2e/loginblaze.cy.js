@@ -17,8 +17,8 @@ describe ('Sign up Demo Blaze', function () {
 
     it('Login Demo Blaze', function () {
         cy.get('#login2').click()
-        cy.get('#loginusername').type('nawa123')
-        cy.get('#loginpassword').type('nawa123')
+        cy.get('#loginusername').type('nawa123').click()
+        cy.get('#loginpassword').type('nawa123').click()
 
         cy.get('#logInModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary').click()
 
