@@ -15,9 +15,11 @@ describe ('Sign up Demo Blaze', function () {
 
     })
 
-
     it('Login Demo Blaze', function () {
-
+        cy.get('#login2').click()
+        cy.get('#loginusername').type('saiful')
+        cy.get('#loginpassword').type('saiful123')
+        cy.get('#logInModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary').click()
 
     })
 
