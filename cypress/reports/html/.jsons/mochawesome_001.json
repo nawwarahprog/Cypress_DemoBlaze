@@ -1,0 +1,131 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-09-02T01:41:57.382Z",
+    "end": "2022-09-02T01:42:02.821Z",
+    "duration": 5439,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e23c39f4-c515-449d-b73a-e7eba8d909c1",
+      "title": "",
+      "fullFile": "cypress\\e2e\\contactblaze.cy.js",
+      "file": "cypress\\e2e\\contactblaze.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7db53fa7-0300-4e7c-a3fb-0e5a20d56853",
+          "title": "Add New Contact",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Visit URL Demo Blaze",
+              "fullTitle": "Add New Contact Visit URL Demo Blaze",
+              "timedOut": null,
+              "duration": 1633,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.demoblaze.com/index.html');",
+              "err": {},
+              "uuid": "6993c2a6-7657-4fbe-89d7-375a27e81e1f",
+              "parentUUID": "7db53fa7-0300-4e7c-a3fb-0e5a20d56853",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Add New Contact",
+              "fullTitle": "Add New Contact Add New Contact",
+              "timedOut": null,
+              "duration": 2099,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(':nth-child(2) > .nav-link').click();\ncy.get('#recipient-email').type(\"nawwarahyusof226@gmail.com\").click();\ncy.get('#recipient-name').type(\"Nawwarah\").click();\ncy.get('#message-text').type(\"Hello, I am Done\").click();\ncy.get('#exampleModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary').click();",
+              "err": {},
+              "uuid": "8243b581-6780-43ab-9c6d-a109feaf2ef7",
+              "parentUUID": "7db53fa7-0300-4e7c-a3fb-0e5a20d56853",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6993c2a6-7657-4fbe-89d7-375a27e81e1f",
+            "8243b581-6780-43ab-9c6d-a109feaf2ef7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3732,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "report-cypressDemoBlaze",
+        "embeddedScreenshot": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false,
+        "video": false,
+        "screenshotsFolder": "images",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
