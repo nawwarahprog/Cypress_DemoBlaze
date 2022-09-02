@@ -19,5 +19,8 @@
   "homepage": "https://github.com/nawwarahprog/Cypress_DemoBlaze#readme",
   "dependencies": {
     "cypress": "^10.7.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.2.2"
   }
 }
